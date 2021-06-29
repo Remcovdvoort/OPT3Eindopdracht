@@ -19,7 +19,6 @@ public class Student extends Gebruiker {
     }
 
 
-
     public ArrayList<Double> getCijfersByVak(String vak) {
         for(CijferLijst cij: cijferlijsten){
             if(vak.equals(cij.getVak())){

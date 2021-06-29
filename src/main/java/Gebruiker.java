@@ -1,10 +1,8 @@
 public abstract class Gebruiker {
 
-
     private String naam;
     private String gebruikersnaam;
     private String wachtwoord;
-
 
     public Gebruiker(String naam, String gebruikersnaam, String wachtwoord) {
         this.naam = naam;
@@ -20,10 +18,6 @@ public abstract class Gebruiker {
 
     public String getWachtwoord(){
         return wachtwoord;
-    }
-
-    public String getNaam() {
-        return naam;
     }
 }
 
